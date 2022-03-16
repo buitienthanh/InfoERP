@@ -1,0 +1,152 @@
+.titleLabel {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.titleAbove {
+  font-size: 72px;
+  line-height: 98px;
+  font-weight: bold;
+}
+
+.titleBelow {
+  font-size: 55px;
+  line-height: 65px;
+  text-transform: uppercase;
+}
+
+#detailLabel {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+}
+
+#line {
+  background: #ffffff;
+  opacity: 0.2;
+  border-radius: 6px;
+  height: 3px;
+  width: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#imgBack {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 680px;
+  width: 100%;
+}
+
+#divImageMain {
+  /* content: url("../../img/mainPage/infocity_quan_ly.png"); */
+}
+
+
+
+@media only screen and (max-width: 991px) {
+  .titleLabel {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    /* identical to box height */
+
+    color: #ffffff;
+
+    text-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  }
+
+  #rowTitleLabel {
+    text-align: center;
+  }
+
+  #line {
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  #divImageMain {
+    height: 292px;
+    max-width: 340px;
+    margin: auto;
+  }
+
+  #imgBack {
+    /* content: url("../../img/mainPage/background_object_mobile.png"); */
+    height: 558px;
+  }
+
+  #divMain {
+    margin-top: 15px;
+  }
+
+  .titleAbove {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .titleBelow {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  #detailLabel {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #colTitleLabel {
+    margin: auto;
+    padding: 0;
+    padding-left: 15px;
+  }
+
+  .col-lg-5 {
+    flex: 0 0 36% !important;
+    max-width: 36% !important;
+  }
+
+  #divImageMain {
+    height: 614.79px;
+    max-width: 731.72px;
+    width: 100%;
+  }
+
+  #imgBack {
+    /* content: url("../../img/mainPage/background_object.png"); */
+  }
+
+  #containerMain {
+    height: inherit;
+    /* max-width: 1168px; */
+    max-width: 1800px;
+  }
+
+  #rowTitleLabel {
+    height: inherit;
+  }
+
+  #divMain {
+    height: inherit;
+  }
+
+  #imageCol {
+    padding: 0
+  }
+}

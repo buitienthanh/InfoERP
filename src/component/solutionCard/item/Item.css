@@ -1,0 +1,11 @@
+.solItemCard {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.solItemLabel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}

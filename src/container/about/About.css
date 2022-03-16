@@ -1,0 +1,69 @@
+.aboutInfo {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: 5px;
+  /* identical to box height */
+
+  /* Blue shadow 1 */
+
+  color: #383856;
+}
+
+#aboutDiv {
+  height: 337.52;
+  padding: 20px 0;
+  max-width: 1167px;
+  margin: auto;
+}
+
+#govDiv {
+  margin-left: auto;
+}
+
+@media only screen and (min-width: 992px) {
+  #aboutDiv {
+    height: 174px;
+    display: flex;
+  }
+
+  .aboutLine {
+    width: 0;
+    height: 0;
+  }
+
+  #aboutChat {
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 1166px) {
+  #aboutDiv {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #aboutDiv {
+    padding: 20px !important;
+  }
+
+  #govDiv {
+    display: flex;
+  }
+
+  #govDiv a {
+    margin-left: auto;
+  }
+
+  .aboutLine {
+    opacity: 0.1;
+    border: 1px solid #304f79;
+  }
+}
+
+

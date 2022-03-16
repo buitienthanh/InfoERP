@@ -1,0 +1,73 @@
+label {
+  margin-bottom: 0 !important;
+  font-family: Nunito;
+}
+
+img {
+  width: 100%;
+}
+
+#app {
+  overflow: hidden;
+}
+
+
+.transitionBar {
+  background: #debc65;
+  border-radius: 8px;
+  width: 48px;
+  height: 8px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.labelTitle {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+
+  color: #225dc0;
+}
+
+@media only screen and (min-width: 992px) {
+  .labelTitle {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+
+    color: #225dc0;
+  }
+
+  .transitionBar {
+    width: 63px;
+  }
+
+  .mobile {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+  .web {
+    visibility: visible;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .mobile {
+    visibility: visible;
+  }
+
+  .web {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    padding: 0 !important;
+  }
+}

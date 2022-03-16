@@ -1,0 +1,39 @@
+#colorBackDiv {
+    background-image: url('../img/mainPage/background_color.png');
+    overflow: hidden;
+}
+
+#rulePage {
+    display: none;
+}
+
+#divBottom {
+    background-color: #EDF3FB;
+}
+
+
+@media only screen and (min-width: 992px) {
+    #colorBackDiv {
+        height: 684px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    #colorBackDiv {
+        height: 568px;
+        background-image: url('../img/mainPage/background_color_mobile.png');
+    }
+
+    #divCust {
+        background-color: #EDF3FB
+    }
+}
+
+.siteLayout {
+    max-width: 1168px;
+    display: flex;
+    flex-direction: column;
+    margin: auto
+}
+

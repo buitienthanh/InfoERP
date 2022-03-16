@@ -1,0 +1,139 @@
+.regFormLabel {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  /* or 100% */
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.regFormInput {
+  background: #304f79;
+  border-radius: 6px;
+  width: 100%;
+  color: white;
+  border: none;
+  height: 40px;
+  padding: 5px;
+}
+
+.regFormInput:focus-visible {
+  outline: none;
+}
+
+.layoutInput {
+  margin: auto;
+}
+
+input::placeholder {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #cbdcee;
+  opacity: 0.4;
+}
+
+#modalRegister input::placeholder {
+  color: black;
+}
+
+@media only screen and (max-width: 991px) {
+  .regFormInput {
+    width: 295px;
+  }
+}
+
+@media only screen and (max-width: 328px) {
+  .regFormInput {
+    width: 100%;
+  }
+
+  .webInputLeft .layoutInput {
+    width: 100%;
+  }
+
+  .webInputRight .layoutInput {
+    width: 100%;
+  }
+
+  .layoutInput {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .regFormInput {
+    width: 429px;
+  }
+
+  .webInputLeft .regFormInput {
+    width: 200px;
+    min-width: 0;
+  }
+
+  .webInputRight .regFormInput {
+    width: 200px;
+    min-width: 0;
+  }
+
+  .webInputLeft {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+
+  .webInputRight {
+    width: 204px;
+    margin-right: auto !important;
+    margin-left: 0 !important;
+  }
+
+  .webInputLeft .layoutInput {
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+
+#modalRegister .regFormLabel {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  /* or 100% */
+
+  /* Gray 3 */
+
+  color: #5c5c5c;
+}
+
+#modalRegister .regFormInput {
+  background: #edf3fb;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 14px;
+  color: #363e49;
+}
+
+#modalRegister .errorInput {
+  border: solid 1px #d93025;
+}
+
+#modalRegister .normalInput {
+  border: none;
+}
+
+#errorLayout {
+  border-radius: 6px;
+}
+
+.errorMes {
+  font-size: 12px;
+  color: red;
+}

@@ -1,0 +1,170 @@
+{
+    "menu": {
+        "intro": "InfoERP",
+        "video": "Video",
+        "advantage": "Tính ưu việt",
+        "solution": "Trải nghiệm miễn phí",
+        "customer": "Về chúng tôi"
+    },
+
+    "lang": {
+        "vn": "Tiếng việt",
+        "en": "Tiếng anh",
+        "kr": "Tiếng hàn"
+    },
+
+    "mainPage": {
+        "touch": "Chạm tới",
+        "lifeUtil": "Tiện ích sống",
+        "solution": "Giải pháp quản lý tòa nhà chung cư cho BQL",
+        "registerBtn": "Đăng ký dùng thử miễn phí"
+    },
+
+    "intro": {
+        "software": " ERP kết hợp AI cung cấp tất cả ",
+        "for": "các chức năng cần thiết cho Doanh nghiệp",
+        "apartment": "Đăng ký nhận báo giá Online",
+        "apartmentDetail": "Hãy tham khảo dịch vụ của Công ty TNHH InfoPlus, công ty với nền tảng công nghệ IT toàn diện nhất.",
+        "complex": "Yêu cầu tư vấn sử dụng dịch vụ",
+        "complexDetail": "Chúng tôi sẽ tư vấn và đưa ra giải pháp tối ưu phù hợp nhất với Quý doanh nghiệp. ",
+        "cowork": "Văn phòng Coworking",
+        "coworkDetail": "Hỗ trợ vận hành quản lý Hợp đồng, Booking dịch vụ văn phòng dịch vụ, đa dạng các loại hình từ Share Office, Virtual Office, Meeting Space.",
+        "mini": "Quản lý nhà trọ, chung cư mini",
+        "miniDetail": "InfoCity giúp các chủ nhà có thể vận hành quản lý từ xa Chuỗi phòng trọ/Home Stay bằng các thao tác đơn giản trên hệ thống. Công cụ hỗ trợ tương tác trực tiếp với Khách thuê từ hệ thống giúp giảm thiểu nhân lực hỗ trợ cũng như tiết kiệm thời gian quản trị.",
+        "dorm": "Quản lý ký túc xá",
+        "dormDetail": "Giải pháp giúp Ban quản lý Ký túc xá có thể Thống kê danh sách phòng KTX, Thống kê danh sách sinh viên, Quản lý đăng ký khách ra vào, Theo dõi đóng phí, Quản lý khiếu nại, Tiếp nhận yêu cầu sửa chữa."
+    },
+
+    "introVideo": {
+        "title": "InfoERP",
+        "subTitle" : "ERP kết hợp AI cung cấp tất cả các chức năng cần thiết cho Doanh nghiệp",
+        "registerBtn": "Đăng ký dùng thử miễn phí"
+    },
+
+    "advantage": {
+        "title": "Tại sao các Doanh nghiệp nên sử dụng INFOERP?",
+        "subTitle":"Vì đây là nền tảng hỗ trợ doanh nghiệp thành công trong kinh doanh.",
+        "mobileTitle1": "Ưu thế",
+        "mobileTitle2": "khi sử dụng phần mềm",
+        "webTitle1": "Excel",
+        "webTitle2": "",
+        "webDetail": "Vẫn còn nhiều các doanh nghiệp xử lý nghiệp vụ trên Excel hoặc theo cách thủ công, thế nhưng nó sẽ tồn tại nhiều hạn chế so với các chương trình phần mềm. Ngoài các vấn đề như mất mát, thiếu sót, nhầm lẫn dữ liệu và nhân viên nghỉ việc..., thì việc quản lý bằng Excel trở nên khó khăn khi công ty phát triển hoặc nghiệp vụ phức tạp hơn.",
+        "appManTitle1": "Sử dụng các phần mềm cục bộ",
+        "appManTitle2": "với ứng dụng di động",
+        "appManSubTitle": "PHẦN MỀM DÀNH CHO BQL",
+        "appManDetail": "Thật bất tiện nếu các chương trình phần mềm được cài đặt trên PC và sử dụng một mình hoặc nếu nó bị giới hạn ngay cả khi nó có thể được sử dụng bởi nhiều người. Nếu nhóm kế toán sử dụng chương trình kế toán, nhóm mua hàng quản lý bằng Excel, và nhóm bán hàng lại sử dụng chương trình bán hàng, và như vậy cùng một việc nhưng phải thực hiện hai lần hoặc ba lần, điều này có thể dẫn đến sự sai khác về dữ liệu và phát sinh các vấn đề lớn trong tương lai.",
+        "appResTitle1": "ERP",
+        "appResTitle2": "tiện ích cho cư dân",
+        "appResSubTitle": "PHẦN MỀM DÀNH CHO CƯ DÂN",
+        "appResDetail": "Ngay cả việc bỏ một khoản chi phí lớn cũng không thể giải quyết được vấn đề cấu hình hệ thống ERP để có thể sử dụng cho toàn bộ công ty. Nguyên nhân chính là do hạn chế tùy chỉnh dựa vào thay đổi trong nghiệp vụ, Nhà cung cấp dịch vụ đóng cửa, lỗi dữ liệu và chi phí bảo trì quá cao...",
+        "registerBtn": "Đăng ký dùng thử miễn phí"
+    },
+
+    "solution": {
+        "title": "Ưu điểm vượt trội",
+        "mobileTitle1": "Giải pháp",
+        "mobileTitle2": "tốt nhất dành cho tòa nhà",
+        "subTitle": "Dễ dàng sử dụng và hãy trải nghiệm ngay",
+        "public" : {
+            "title": "Tăng doanh thu",
+            "subTitle": "36%",
+            "detail": {
+                "1": "Có thể nhận thông báo tự động mà không cần phải bận tâm về các nghiệp vụ mỗi ngày phải làm mà không thể bỏ lỡ.",
+                "2": "Mobile app cho cư dân",
+                "3": "Mobile app cho quản lý",
+                "4": "Miễn phí hạ tầng đám mây",
+                "5": "Thương hiệu chung Infoplus",
+                "6": "Mã nguồn chung"
+            },
+            "slogan": "Dùng thử ngay 03 tháng miễn phí"
+        },
+        "private" : {
+            "title": "Tiết kiệm chi phí",
+            "subTitle": "30%",
+            "detail": {
+                "1": "Có thể nhận thông báo tự động mà không cần phải bận tâm về các nghiệp vụ mỗi ngày phải làm mà không thể bỏ lỡ.",
+                "2": "Có thể hưởng dịch vụ một cách kinh tế bằng việc tiết kiệm chi phí cố định như cơ sở hạ tầng và phí nhân công để quản lý hệ thống.",
+                "3": "Mobile app cho quản lý",
+                "4": "Hạ tầng riêng",
+                "5": "Đồng thương hiệu",
+                "6": "Mã nguồn riêng"
+            },
+            "slogan": "Làm nổi bật thương hiệu của bạn"
+        },
+        "productivity" : {
+            "title":"Tăng năng suất",
+            "subTitle": "60%",
+            "detail": {
+                "1": "Từ cơ chế hoạt động tự động 100% sẽ giúp giảm thời gian làm việc thủ công và quản lý dữ liệu hiệu quả.",
+                "2": "Tự động phân chia theo phân tích trí tuệ nhân tạo (AI) chẳng hạn như thu thập tự động thông tin giao dịch, mô hình xử lý kế toán trước đây."
+            }
+        },
+        "registerBtn": "Đăng ký"
+    },
+
+    "customer": {
+        "title1": "Khách hàng",
+        "title2": "đang sử dụng dịch vụ",
+        "customer": "Khách hàng",
+        "building": "Tòa sử dụng",
+        "user": "Người sử dụng",
+        "registerBtn": "Đăng ký dùng thử"
+    },
+
+    "register": {
+        "title": "Mời bạn đăng ký dùng thử miễn phí để trải nghiệm phần mềm một cách tốt nhất",
+        "webTitle1": "Mời bạn đăng ký dùng thử miễn phí",
+        "webTitle2": "để trải nghiệm phần mềm một cách tốt nhất",
+        "form": {
+            "name": "Họ và tên",
+            "tax": "Mã số thuế",
+            "phone": "Số điện thoại",
+            "email": "Email",
+            "area": "Khu vực",
+            "room": "Tổng số căn hộ"
+        },
+        "registerBtn": "Đăng ký"
+    },
+
+    "about": {
+        "address": "Tầng 10, tòa nhà Lucky Building, 81 Trần Thái Tông, Dịch Vọng, Cầu Giấy, Hà Nội",
+        "contact": "salemarketing@infoplusvn.com",
+        "paper": "Giấy CNĐKKD: 0108154862 - Ngày cấp: 03/02/2018, được sửa đổi lần thứ 07 ngày 16/07/2021",
+        "issuedBy": "Phòng Đăng ký kinh doanh - Sở Kế hoạch và Đầu tư TP. Hà Nội",
+        "chatContent1": "Chúng tôi luôn online",
+        "chatContent2": "Xin vui lòng chat với chúng tôi!"
+    },
+
+    "error" : {
+        "empty": "Trường này không được để trống",
+        "invalid": "Giá trị không hợp lệ"
+    },
+
+    "homePage": "Trang chủ",
+
+    "send": {
+        "success": {
+            "title": "Chúc mừng bạn đã gửi đăng ký thành công!",
+            "subTitle": "Chúng tôi sẽ liên lạc với bạn trong thời gian sớm nhất"
+        },
+        "fail": {
+            "title": "Bạn gửi chưa thành công!",
+            "subTitle": "Trong quá trình gửi gặp lỗi nên chưa thành công. Mời bạn vui lòng thử lại.",
+            "registerAgain": "Đăng ký lại"
+        }
+    },
+
+    "placeholder": {
+        "name": "Họ tên/Tên công ty/Chức vụ (bắt buộc)",
+        "phone": "Số liên hệ (bắt buộc)",
+        "email": "Email (bắt buộc)",
+        "area": "VD: Số 81 đường Trần Thái Tông, phường Dịch Vọng, quận Cầu Giấy, thành phố Hà Nội",
+        "numberRoom": "VD: 1000",
+        "tax": "Mã số thuế (bắt buộc)"
+    },
+    "qrCode":{
+        "sendFail": "Gửi không thành công",
+        "invalidIdCard": "Số CMT/CCCD/ Hộ chiếu không hợp lệ",
+        "invalidMobile": "Số điện thoại không hợp lệ"
+    }
+}

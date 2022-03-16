@@ -1,0 +1,157 @@
+{
+    "menu": {
+        "intro": "Features",
+        "video": "Video",
+        "advantage": "Why Infocity?",
+        "solution": "Services",
+        "customer":  "Our Customers"
+    },
+    
+    "lang": {
+        "vn": "Vietnamese",
+        "en": "English",
+        "kr": "Korean"
+    },
+    
+    "mainPage": {
+        "touch": "Touch",
+        "lifeUtil": "a convenient life", 
+        "solution": "A building management service for investors",
+        "registerBtn": "Sign up for our free demo"
+    },
+    
+    "intro": {
+        "software": "A Supportive software for",
+        "for": "Management and residents",
+        "apartment": "Apartment management",
+        "apartmentDetail": "Infocity is the leading software in the application of technology in property operation management. Infocity intergrates various features in maximizing the support for specialized management operations and avoiding wasted human resources. Systematize the management of papers and reports to help clear and transparent management. Enhance real estate values ​​and increase profits.",
+        "complex": "Complex commercial management",
+        "complexDetail": "Infocity allows you to manage a complex commercial building to systematize a comprehensive operational management model from Contract management to General Accounting, contributing to the highest business efficiency.",
+        "cowork": "Coworking office management",
+        "coworkDetail": "Infocity supports operation and management of contracts, booking of serviced office services, various types from Share Office, Virtual Office and Meeting Space.",
+        "mini": "Inn and mini-apartment management",
+        "miniDetail": "InfoCity supports homeowners with operations and management of the chain of rooms/homestay remotely with simple operations on the system. Support tools to directly interact with tenants from the system to help reduce support staff as well as save administration time", 
+        "dorm": "Dorm management",
+        "dormDetail": "The solution helps the dormitory management board to statisticalize the list of dormitory rooms, list of students, manage guest registration in and out, monitor payment of fees, manage complaints and receive repair requests"
+    },
+    
+    "introVideo": {
+        "title": "Introduction to Infocity",
+        "registerBtn": "Sign up for our free demo"
+    },
+    
+    "advantage": {
+        "title": "Why should you choose Infocity?",
+        "mobileTitle1": "Why should you choose",
+        "mobileTitle2": "Infocity",
+        "webTitle1": "Interface",
+        "webTitle2": "friendly and easy-to-use", 
+        "webDetail": "Infocity has a clear and concise interface design while providing well-informed data and intergration for the investor, management and staff. Training to use the functions of the software will no longer be a concerning issue",
+        "appManTitle1": "Managing anytime, anywhere",
+        "appManTitle2": "with mobile app",
+        "appManSubTitle": "APP MANAGER",
+        "appManDetail": "With Infocity mobile app for management, building owners and staffs will not miss any payment issues or complains from anywhere, anytime. The app allows management even on mobile!",
+        "appResTitle1": "Intergrating ultilities",
+        "appResTitle2": "for App Resident",
+        "appResSubTitle": "APP RESIDENT",
+        "appResDetail": "Infocity app for residents will allow the people to aceess to every ultilities, services provided by building management. In addition, Infocity also helps with fee payment and living expenses, as well as sending complains and suggestions to the management.",
+        "registerBtn": "Sign up for our free demo"
+    },
+    
+    "solution": {
+        "title": "Find the perfect solution for your properties",
+        "mobileTitle1": "Find the perfect solution",
+        "mobileTitle2": "for your properties",
+        "subTitle": "Sign up today! For our free demo",
+        "public" : {
+            "title": "puplic",
+            "subTitle": "Co-branding subscription",
+            "detail": {
+                "1": "Centralized management platform",
+                "2": "Mobile app for residents",
+                "3": "Mobile app for management",
+                "4": "Free cloud infrastructure",
+                "5": "Co-branding with Infoplus",
+                "6": "Common source code"
+            },
+            "slogan": "Sign up for 3-month free trial"
+        },
+        "private" : {
+            "title": "private",
+            "subTitle": "Separate branding subscription",
+            "detail": {
+                "1": "Centralized management system",
+                "2": "Mobile app for residents",
+                "3": "Mobile app for management",
+                "4": "Exclusive infrastructure",
+                "5": "Exclusive brandname", 
+                "6": "Exclusive source code"
+            },
+            "slogan": "Stand out with your own brandname"
+        },
+        "registerBtn": "Resgister"
+    },
+    
+    "customer": {
+        "title1": "Entrusted",
+        "title2": "by our customers",
+        "customer": "Partners",
+        "building": "Buildings in use",
+        "user": "Residents",
+        "registerBtn": "Sign up now"
+    },
+    
+    "register": {
+        "title": "Get in touch with our experts today for the most suitable solution and experiencing our software", 
+        "webTitle1": "Get in touch with our experts today",
+        "webTitle2": "for the most suitable solution and experiencing our software",
+        "form": {
+            "name": "Full Name",
+            "phone": "Phone No.",
+            "email": "Email",
+            "area": "Area",
+            "room": "Number of apartment units"
+        },
+        "registerBtn": "Register"
+    },
+    
+    "about": {
+        "address": "10th Floor, Lucky Building, No. 81 Tran Thai Tong, Dich Vong Ward, Cau Giay District, Hanoi, Vietnam",
+        "contact": "salemarketing@infoplusvn.com",
+        "chatContent1": "We are always online!", 
+        "chatContent2": "Chat with us"
+    },   
+    
+    "error" : {
+        "empty": "Field is required",
+        "invalid": "Invalid value"
+    },
+
+    "homePage": "Homepage",
+
+    "send": {
+        "success": {
+            "title": "Registration Sucess!",
+            "subTitle": "We will be contacting you soon!"
+        },
+        "fail": {
+            "title": "Registration Failed",
+            "subTitle": "There was an error during the process. Please try again",
+            "registerAgain": "Register Again"
+        }
+    },
+
+
+    "placeholder": {
+        "name": "Ex: Nguyễn Văn A",
+        "phone": "Ex: 0123456789",
+        "email": "Ex: abc@gmail.com",
+        "area": "Ex: No. 81 Tran Thai Tong, Dich Vong Ward, Cau Giay District, Hanoi, Vietnam",
+        "numberRoom": "Ex: 1000"
+    },
+    "qrCode":{
+        "sendFail": "Send unsuccessful",
+        "invalidIdCard": "Invalid data at ID Card",
+        "invalidMobile": "Invalid data at Mobile"
+    }
+}

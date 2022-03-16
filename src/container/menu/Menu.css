@@ -1,0 +1,90 @@
+#menuContainer {
+  padding: 5px 20px 5px 20px;
+  /* max-width: 1167px; */
+  height: 94px;
+  margin: auto;
+  /* backgroundImage:'' */
+  background: rgba(255, 255, 255,0.5); 
+  z-index: 2;
+}
+
+#divLanguage {
+  width: 142px;
+  height: 30px;
+  /* color: #ffffff; */
+  color:'#000000';
+  display: flex;
+  padding-left: 8px;
+}
+
+#wrapperLanguage {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  /* background: rgba(0, 0, 0, 0.2); */
+  border: 1px solid #113f88;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-size: 14px;
+
+}
+
+#menuLine {
+  border: 1px solid #ffffff;
+  opacity: 0.1;
+}
+
+#selectorLanguage {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #113f88;
+  box-sizing: border-box;
+  border-radius: 6px;
+  color: #ffffff;
+}
+
+.optionLanguage {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.linkLabel {
+  font-style: bold;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #000000 !important;
+  margin: 0 30px;
+}
+
+#imgLogo {
+  /* content: url('../../img/infocity_logo_mobile.svg'); */
+  content: url("https://static.wixstatic.com/media/3e964e_dc1cdaba9f544482a1d20ed363fda4fc~mv2.png/v1/crop/x_102,y_255,w_2758,h_1257/fill/w_163,h_74,al_c,usm_0.66_1.00_0.01,enc_auto/logo.png");
+}
+
+@media only screen and (min-width: 992px) {
+  #menuLine {
+    visibility: hidden;
+  }
+
+  #imgLogo {
+    /* content: url("../../img/infocity_logo.svg"); */
+    content: url("https://static.wixstatic.com/media/3e964e_dc1cdaba9f544482a1d20ed363fda4fc~mv2.png/v1/crop/x_102,y_255,w_2758,h_1257/fill/w_163,h_74,al_c,usm_0.66_1.00_0.01,enc_auto/logo.png");
+  }
+
+  #homePage #wrapperLanguage {
+    border: 1px solid #4784E6;
+  }
+}
+
+.divLangName {
+  margin-top: 5px;
+  margin-bottom: auto;
+}

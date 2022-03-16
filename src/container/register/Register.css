@@ -1,0 +1,98 @@
+.regTitle {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
+
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+  padding: 25px;
+}
+
+@media only screen and (min-width: 992px) {
+  .regTitle {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+#divRule {
+  max-width: 1168px;
+  display: flex;
+  min-height: 54px;
+  margin: auto;
+}
+
+.divRuleItem {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 5px;
+  display: flex;
+}
+
+.divRuleItem:hover {
+  color: #225dc0;
+}
+
+.separateRule {
+  border: solid 1px silver;
+  height: 15px;
+  width: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+  #divRule {
+    flex-direction: column;
+    min-height: 100px;
+  }
+
+  .separateRule {
+    height: 0;
+    border: none;
+  }
+
+  .bulletPoint {
+    width: 4.5px;
+    height: 4.5px;
+    background: #808284;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  #divRule {
+    flex-direction: column;
+    min-height: 100px;
+  }
+
+  .separateRule {
+    height: 0;
+    border: none;
+  }
+
+  .bulletPoint {
+    width: 4px;
+    height: 4px;
+    background: #808284;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+  }
+}
+

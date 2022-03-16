@@ -1,0 +1,194 @@
+.registerButton {
+  background: #debc65;
+  box-shadow: none;
+  border-radius: 12px;
+  max-width: 351px;
+  border-color: #debc65;
+  padding: 5px;
+  text-align: center;
+  z-index: 2;
+  height: 50px;
+  display: flex;
+  margin: auto;
+}
+
+.btnLayout {
+  margin: auto;
+}
+
+.registerLabel {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+
+  /* White */
+
+  color: #ffffff;
+  margin: auto;
+}
+
+.regTitle {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
+
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+  padding: 25px;
+}
+
+.regImgBack {
+  height: 100%;
+  max-height: 580px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.registerDiv {
+  height: 584px;
+  margin-bottom: 50px;
+  max-width: 1167px;
+  width: 100%;
+  margin: auto;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background-color: #0e2a4f;
+}
+
+.regLayoutDiv {
+  display: flex;
+  margin-top: 60;
+}
+
+#modalRegister .regTitle {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  /* or 129% */
+
+  text-align: center;
+
+  /* Gray 4 */
+
+  color: #363e49;
+}
+
+#modalRegister .registerDiv {
+  background-color: #ffffff;
+}
+
+#modalRegister .regImgBack {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+  z-index: -1;
+}
+
+#modalRegister .regLayoutDiv {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 991px) {
+  #modalRegister .registerDiv {
+    height: 700px !important;
+  }
+
+  .errorLayout {
+    width: 295px;
+  }
+
+  .registerButton {
+    height: 42px;
+    max-width: 300px;
+  }
+
+  .registerDiv {
+    border-radius: 0%;
+    height: 628px;
+  }
+
+  #modalRegister .regTitle {
+    font-size: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 420px) {
+  .errorLayout {
+    width: 100%;
+  }
+
+  .registerDiv {
+    height: 650px;
+  }
+}
+
+@media only screen and (max-width: 305px) {
+  .errorLayout {
+    width: 100%;
+  }
+
+  .registerDiv {
+    height: 670px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .regTitle {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  #btnRegister {
+    width: 429px;
+    max-width: none;
+  }
+
+  .errorLayout {
+    width: 429px;
+  }
+
+  .webInputLeft .errorLayout {
+    width: 204px;
+    min-width: 0;
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+
+  .webInputRight .errorLayout {
+    width: 204px;
+    min-width: 0;
+  }
+
+  .webInputRight {
+    width: 204px;
+    margin-right: auto !important;
+    margin-left: 0 !important;
+  }
+}
+
+.errorDiv {
+  display: flex;
+}
+
+.errorLayout {
+  margin: auto;
+}
+
+#registerForm {
+  position: absolute;
+  left: 0;
+  right: 0;
+}

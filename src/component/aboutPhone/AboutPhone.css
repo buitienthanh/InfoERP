@@ -1,0 +1,20 @@
+.phoneNumberAbout {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+
+  color: #454556;
+}
+
+.phoneNumberLabel {
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+  .phoneNumberAbout {
+    font-size: 14px;
+  }
+}
