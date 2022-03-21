@@ -8,25 +8,30 @@ function formatDate(strDate){
 }
 
 function insertGuest(props) {
+    debugger;
     return new Promise((resolve, reject) => {
         const requestOptions = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(
                 {
-                    guestNm: props.guestNm,
-                    birthday: formatDate(props.birthday),
-                    gender: props.gender,
-                    idCard: props.idCard,
-                    mobile: props.mobile,
-                    nationNm: props.nationNm,
-                    address: props.address,
+                    Name: props.name,
+                    TaxCode : props.tax,
+                    PhoneNumber : props.phone,
+                    Email : props.email
+                    // guestNm: props.guestNm,
+                    // birthday: formatDate(props.birthday),
+                    // gender: props.gender,
+                    // idCard: props.idCard,
+                    // mobile: props.mobile,
+                    // nationNm: props.nationNm,
+                    // address: props.address,
                 }
             )
         }
         fetch(config.api.insert_quest, requestOptions)
             .then(response => resolve(response.json())).catch(error => reject(error));
-    })
+    });
 }
 
 function updateGuest(props) {

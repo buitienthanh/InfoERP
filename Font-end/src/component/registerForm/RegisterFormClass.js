@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import FormInput from '../formInput/FormInput';
-import { Container, Col, Row } from 'react-bootstrap';
+import { Container, Col, Row,Button } from 'react-bootstrap';
 import imgBack from '../../img/register/registerImage.png'
 import ImgCom from '../imgCom/ImgCom';
 import { withTranslation } from 'react-i18next';
@@ -8,6 +8,9 @@ import './RegisterForm.css'
 import Popup from '../popup/popup';
 import validate from '../../util/validateUtil';
 import sendEmail from '../../service/sendEmail';
+import saveGuest from '../../service/saveGuest'
+import LoadingButton from '../../component/loadingButton/LoadingButton'
+
 
 const initialState = {
     name: '',
@@ -47,26 +50,28 @@ class RegisterFormClass extends Component {
         let isShow = !validate.isEmpty(this.state.name)
             && !validate.isEmpty(this.state.phone)
             && !validate.isEmpty(this.state.email)
-            && !validate.isEmpty(this.state.area)
-            && !validate.isEmpty(this.state.numberRoom)
-            && validate.isPhone(this.state.phone)
-            && validate.isEmail(this.state.email)
-            && validate.isEmpty(this.state.tax);
+            // && !validate.isEmpty(this.state.area)
+            // && !validate.isEmpty(this.state.numberRoom)
+            // && validate.isPhone(this.state.phone)
+            // && validate.isEmail(this.state.email)
+            && !validate.isEmpty(this.state.tax);
         this.setState({
             errorName: validate.isEmpty(this.state.name) ? 'empty' : null,
             errorPhone: validate.isEmpty(this.state.phone) ? 'empty' : (!validate.isPhone(this.state.phone) ? 'invalid' : null),
             errorEmail: validate.isEmpty(this.state.email) ? 'empty' : (!validate.isEmail(this.state.email) ? 'invalid' : null),
-            errorArea: validate.isEmpty(this.state.area) ? 'empty' : null,
-            errorRoom: validate.isEmpty(this.state.numberRoom) ? 'empty' : null,
+            // errorArea: validate.isEmpty(this.state.area) ? 'empty' : null,
+            // errorRoom: validate.isEmpty(this.state.numberRoom) ? 'empty' : null,
             errorTax: validate.isEmpty(this.state.tax) ? 'empty' : null,
         })
 
-        if (isShow)
+        if (isShow){
             this.onSendEmail();
+            this.onSaveRegisteredUsers();
+        }     
     }
 
     onSendEmail() {
-        sendEmail({ name: this.state.name, phone: this.state.phone, email: this.state.email, area: this.state.area, numberRoom: this.state.numberRoom }).then(result => {
+        sendEmail({ name: this.state.name, phone: this.state.phone, email: this.state.email, tax: this.state.tax}).then(result => {
             this.setState({
                 isFail: false,
                 show: true
@@ -76,6 +81,14 @@ class RegisterFormClass extends Component {
                 isFail: true,
                 show: true
             })
+        })
+    }
+
+    onSaveRegisteredUsers() {
+        saveGuest.insertGuest({ name: this.state.name, phone: this.state.phone, email: this.state.email, tax: this.state.tax }).then(result => {
+            
+        }).catch(error => {
+          
         })
     }
 
@@ -127,12 +140,13 @@ class RegisterFormClass extends Component {
                                             </Col>
                                         </Row>
                                     </Container> */}
-                                    <div style={{ marginTop: 10 }}>
-                                        <div id='btnRegister' className='registerButton' onClick={this.onSave}>
+                                    <div style={{ marginTop: 10,display:'flex',justifyContent:'center' }}>
+                                        <LoadingButton onSave = {this.onSave}/>
+                                        {/* <div id='btnRegister' className='registerButton' onClick={this.onSave}>
                                             <div className='btnLayout'>
                                                 <label className='registerLabel'>{t('register.registerBtn')}</label>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </form>
                             </div>

@@ -8,14 +8,20 @@ export default function sendEmail(props) {
             headers: { 'Content-Type': 'application/json'},
             body: JSON.stringify(
                 {
-                    email: config.email,
-                    msgType: 4,
-                    title: "Customer's Info",
-                    content: `Name: ${props.name}, phone: ${props.phone}, email: ${props.email}, area: ${props.area}, Number of apartment units: ${props.numberRoom}`
+                    from: "buitienthanh1213@gmail.com",
+                    to:"thanhtien@gmail.com",
+                    subject:"Đăng ký thành công",
+                    text: "Đăng ký thành công",
+                    content : {
+                        name: props.name,
+                        email: props.email,
+                        phoneNumber: props.phone,
+                        taxCode : props.tax
+                    } 
                 }
             )
         }
-    
+        
         fetch(config.api.send_email, requestOptions)
             .then(response => resolve(response.json())).catch(error => reject(error));
     })
