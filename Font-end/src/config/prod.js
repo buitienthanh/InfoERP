@@ -8,8 +8,8 @@ const prod = {
         // getRoom: 'https://nodeapi.infocityvn.com:444/manager/room/getRoom?aptId=',
         // getGuestByIdCard: 'https://nodeapi.infocityvn.com:444/manager/qrCode/getGuestByIdCard?idCard=',
         // getGuestByVisitId: 'https://nodeapi.infocityvn.com:444/manager/qrCode/getGuestByVisitId?visitId=',
-        send_email: 'http://1.55.212.41:9100/api/sendMail',
-        insert_quest: 'http://1.55.212.41:9100/api/registeredUsers',
+        send_email: 'http://1.55.212.41:9100/api/mail/send-mail',
+        insert_quest: 'http://1.55.212.41:9100/api/users/registered-users',
         // update_quest: 'https://nodeapi.infocityvn.com:444/manager/qrCode/updateGuest',
         // save_quest_regis: 'https://nodeapi.infocityvn.com:444/manager/qrCode/saveGuestRegis',
         // check_resident: 'https://nodeapi.infocityvn.com:444/manager/qrCode/checkResident?aptId='

@@ -1,6 +1,6 @@
-// import dev from './dev';
+import dev from './dev';
 import prod from './prod';
 
-const config = prod
+const config = dev
 
 export default config;
